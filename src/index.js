@@ -1,7 +1,5 @@
-import {contactPage} from './contact-page'; 
-import {menuPage} from './menu-page';
 import {header} from './header';
-import {content, quoteContainer, backgroundImage, imageNav} from './dom-selectors'; 
+import {content} from './dom-selectors'; 
 
 const homePage = (() => {
 
@@ -41,7 +39,7 @@ const homePage = (() => {
         // backgroundImage.classList.toggle('background-image-1');
 
         const img = document.createElement("img");
-        img.src = "../assets/image_1.jpg"; 
+        img.src = "../dist/assets/image_1.jpg"; 
         backgroundImage.appendChild(img);
 
         for (let i = 0; i < 3; i++){

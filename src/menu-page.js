@@ -11,7 +11,7 @@ const menuPage = (() => {
         let img = document.createElement('img'); 
         
         div.classList.add('menu-container');
-        img.src = "../assets/image_2.jpg";
+        img.src = "../dist/assets/image_2.jpg";
 
         content.appendChild(div);
         div.appendChild(img); 
