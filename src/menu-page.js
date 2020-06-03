@@ -1,5 +1,6 @@
 import {content} from './dom-selectors';
 import {clearPage} from './index';
+import imageTwo from './assets/image_2.jpg'
 
 
 const menuPage = (() => {
@@ -11,7 +12,7 @@ const menuPage = (() => {
         let img = document.createElement('img'); 
         
         div.classList.add('menu-container');
-        img.src = "../dist/assets/image_2.jpg";
+        img.src = imageTwo;
 
         content.appendChild(div);
         div.appendChild(img); 

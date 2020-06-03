@@ -1,5 +1,6 @@
 import {header} from './header';
-import {content} from './dom-selectors'; 
+import {content} from './dom-selectors';
+import imageOne from './assets/image_1.jpg'
 
 const homePage = (() => {
 
@@ -39,7 +40,7 @@ const homePage = (() => {
         // backgroundImage.classList.toggle('background-image-1');
 
         const img = document.createElement("img");
-        img.src = "../dist/assets/image_1.jpg"; 
+        img.src = imageOne; 
         backgroundImage.appendChild(img);
 
         for (let i = 0; i < 3; i++){
