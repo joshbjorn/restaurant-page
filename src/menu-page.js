@@ -1,4 +1,4 @@
-import {content, quoteContainer, backgroundImage, imageNav} from './dom-selectors';
+import {content} from './dom-selectors';
 import {clearPage} from './index';
 
 

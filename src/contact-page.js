@@ -1,5 +1,6 @@
 import {clearPage} from './index';
-
+import {content} from './dom-selectors'
+ 
 const contactPage = (() => {
     const contactPageLoader = () => {
         clearPage();

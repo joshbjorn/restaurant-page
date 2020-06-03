@@ -1,4 +1,4 @@
-import {content, quoteContainer, backgroundImage, imageNav} from './dom-selectors';
+import {content} from './dom-selectors';
 import {contactPage} from './contact-page';
 import { menuPage } from './menu-page';
 import {homePage} from './index'; 
@@ -50,14 +50,14 @@ const header = () => {
             switch (i){
                 case 0:
                     p.textContent = "Menu";
-                    p.addEventListener('click', (e) => {
+                    p.addEventListener('click', () => {
                         menuPage.menuPageLoader();
                     });
                     navBarRight.appendChild(p);
                     break;
                 case 1: 
                     p.textContent = "Contact";
-                    p.addEventListener('click', (e) => {
+                    p.addEventListener('click', () => {
                         contactPage.contactPageLoader();
                     });
                     navBarRight.appendChild(p); 

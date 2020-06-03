@@ -78,7 +78,7 @@ const clearPage = () => {
 
 export {clearPage, homePage}; 
 
-// HOW TO INVOKE ALL AT ONCE!?
+
 header(); 
 homePage.containerLoader();
 homePage.quotesLoader();
